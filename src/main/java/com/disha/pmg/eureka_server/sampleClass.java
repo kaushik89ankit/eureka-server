@@ -3,6 +3,7 @@ package com.disha.pmg.eureka_server;
 public class sampleClass {
 
 	private String name;
+	private String address;
 
 	public String getName() {
 		return name;
@@ -10,6 +11,14 @@ public class sampleClass {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
 	}
 
 }
